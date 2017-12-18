@@ -1,0 +1,204 @@
+---
+zh-CN:
+  activerecord:
+    attributes:
+      contact:
+        email: ''
+  admin:
+    application:
+      sidebar:
+        view_website: 查看站点
+  administrate:
+    actions:
+      confirm: 确认
+      destroy: 销毁
+      edit: 编辑
+    display:
+      account: %{email}的帐户
+  all_day_event: 全天
+  community_events:
+    index:
+      add_your_event: 把你的事件添加到日历
+      community_events: Montréal社区和开发者活动
+      community_events_description: |
+        由于我们在MTL NewTech所做的工作，每天都有人问起城市中有什么活动。因此在多年前我们就开始了Montreal新技术社区事件日历。这是一个Montreal新人和开发者活动的列表。        
+      get_the_calendar: 获取MTLNewTech日历
+      title: 社区活动
+  contacts:
+    new_mailchimp:
+      button: 通知我
+      email: 你的邮件地址
+  date:
+    formats:
+      date: "%B %-e, %Y"
+      short: "%b %-e"
+      short_with_year: "%b %-e, %Y"
+      time: "%-l:%M %P"
+  devise:
+    shared:
+      links:
+        forgot: 忘记密码？
+        log_in: 已经有账号？登录
+        sign_up: 还没有账号？注册。
+  errors:
+    count:
+      one: 1 个问题
+      other: "%{count} 个问题"
+    message: 保留这个表单不被提交
+    messages:
+      already_confirmed: 已经确认，请登录
+      confirmation_period_expired: 需要在 %{period}内确认，请申请一个新的
+      expired: 已过期，请申请一个新的
+      not_found: 未找到
+      not_locked: 没有被锁定
+      not_saved:
+        one: '出现一个问题:'
+        other: '出现 %{count} 个问题：'
+  events:
+    no_venue: 场地还没有确认
+  flash:
+    accounts:
+      failure: 无法更新账户。
+      success: 已成功更新账户。
+  forms:
+    confirm: 确认密码
+    email: 电子邮件
+    forgot: 忘记密码？
+    log_in: 登录
+    new_password: 密码 (最少 %{count} 个字符)
+    password: 密码
+    remember: 记住我
+    send_password: 发给我重置密码指南
+    sign_up: 注册
+  go_to_event: 去日历事件
+  helpers:
+    label:
+      account:
+        admin: 管理员用户？
+      initiative:
+        description_en: 英语描述
+        description_fr: 法语描述
+        title_en: 英语标题
+        title_fr: 法语标题
+      member_profile:
+        bio_en: 英语简历
+        bio_fr: 法语简历
+        position_en: 英语职位
+        position_fr: 法语职位
+      partnership:
+        description_en: 英语描述
+        description_fr: 法语描述
+        name_en: 英语名字
+        name_fr: 法语名字
+      team:
+        description_en: 英语描述
+        description_fr: 法语描述
+        name_en: 英语名字
+        name_fr: 法语名字
+  initiatives:
+    index:
+      title: 初始
+  layouts:
+    footer:
+      about: 关于我们
+      address: 51 Rue Sherbrooke O, Montréal, QC, H2X 1X2
+      email: demo@mtlnewtech.com
+      github: 查看源码并在Github参与！
+      made_in_mtl_html: 创作 %{heart} 于 Montreal
+      partners: 我们的合作伙伴
+      phone: 514-880-4464
+    header:
+      about: 关于
+      community_events: 社区事件
+      events: 事件
+      initiatives: 初始
+      sign_up: 注册
+      startup_landscape: 开始
+      startupfest: 开始
+  log_out: 注销
+  meta:
+    calendar: Montréal创业者社区和开发者事件 - 这是我们关于Montreal新人和开发者的事件。
+    initiatives: Montreal NewTech每个月汇聚了超过250位企业家。当地的创业者可以向这些企业家，开发者，投资人和媒体演示自己的产品。
+    main: Montreal NewTech是Montreal最大的创业者社区。我们致力于Montreal创业企业家的成功。
+  models:
+    null_date:
+      strftime: 在这个日期没有 %{nullable} 
+  next: 下一个
+  no_events: 在整个日期没有计划任何事件
+  pages:
+    about:
+      about_us: MTL NewTech是一个致力于Montreal创业企业家的非盈利组织。每月的第一个星期二，创业者会向程序员，工程师，企业家，投资人，学生，还有其他感兴趣的人展示自己的产品。我们的社区热衷于技术创新并讨论全球创业界的新趋势，新的产品和服务。每月的聚会和演示都会被录制成视频并在社交媒体上分享。
+      header: 关于我们
+      meet_the_team: 和我们的团队见面
+    home:
+      about: 查看MTL New Tech的更多信息
+      apply_link: 去应用程序
+      apply_to_demo: 想要展示你的产品给其他Montréal的企业家，开发者，投资人和媒体？
+      community_partners: 社区合作伙伴
+      events: 事件
+      get_tickets: 获取票
+      more: 查看更多
+      mtlnewtech:
+        main: Fueling Montreal’s创业者社区
+        sub: 致力于帮助Montreal创业企业家成功
+      partnerships: 我们的合作伙伴
+      sign_up:
+        header: 想要我们通知你？
+        sub: 我们会给你发送最新事件和社区动态的更新
+      title: Montréal创业者社区
+      what_we_do: 我们做什么
+    startupfest:
+      contest: 你可能会赢得一个展台！
+      demo_table: 如果你是Montreal的创业者并有产品演示，这可能是你的机会！ Quartier de l'Innovation会有一个展棚并提供给创业者一个价值1250$+税的展示台！
+      details_1: 现在购买创业大会门票会有优惠。Quartier de l’Innovation会给最多50个企业家报销$150以外的费用。正常价格是$550。
+      details_2: 请检查如下条件以确定你是否有资格获取这个优惠。
+      details_3: "(我们仍在寻找更多的合作伙伴来帮助我们提供更优惠的门票！)"
+      eligibility_1: 如果满足如下条件你可以购买门票
+      eligibility_2: 你是MTL NewTech或Quartier de l'Innovation社区成员
+      eligibility_3: 你是一个小于三年初创企业的成员(创业者门票)或者你是一个小于三年经验的年轻专业人士或企业家 (专业认识门票)
+      eligibility_4: 你是一个小于15人的团队成员
+      enter_for_demo_table: 输入来赢取当日的展示台
+      fill_form: 接下来用你的信息填表
+      for_only: 只限于
+      get_your_pass: 填写表格，获取你的门票，并来加入我们的创业活动
+      get_your_ticket: 获取你的门票
+      join_us_1: 加入我们的创业活动
+      join_us_2: Quartier de l’Innovation & MTL NewTech有好的优惠给你
+      more_details_1: Startupfest is是我们的年度创业者盛会！
+      more_details_2_html: "%{link}是一个当地创业者和全世界企业家，发明家见面的盛会。我们知道早期的创业者有时不能负担 550$ 的票价，尽管这个票价绝对超值！"
+      more_details_3: 我们希望所有的创业和企业家协会的会员都能从这个盛会中获益！因此就像往年一样，我们会努力寻找合作伙伴来帮助我们达到这个目标。今年，我们感谢Quartier de l’Innovation的赞助，这样企业家和创业或者只需要支付150$就可以!
+      more_details_4: "不要错过，从现在开始学习！(以后可以回来获取这个优惠) \U0001F609"
+      other_tickets: 你不满足上面的条件？Quartier de l'Innovation and MTL NewTech没有忘记你，和我们联系我们会给你找到合适的优惠！
+      partnership: 感谢我们的合作伙伴
+      payment: 通过Paypyal支付非常快捷简单。你会在邮件中收到你的门票。
+      price: "$150"
+      qi_1: 我们非常高兴的声明Quartier de l’Innovation回到现场并会位部分无法负担门票但有好的项目的创业者支付门票。
+      qi_2: 非常感谢QI，谢谢他们位我们社区提供的优惠。
+      sign_off: MTL NewTech & Quartier de l’Innovation团队
+      startup_festival: 创业节
+      startupfest_pass: 获取你的创业活动门票
+      thanks: 谢谢！希望在创业活动中见到你！
+  partnerships:
+    index:
+      about_partnerships: Montreal New Tech和当地致力于支持创业者的组织成为合作伙伴。
+      community_partners: 社区合作伙伴
+      header: 我们的合作伙伴
+      interested: 对成为Montreal New Tech合作伙伴感兴趣？我们的合作伙伴专业会很高兴和您沟通！
+      partners: 我们的合作伙伴
+      reach_out: 到结束了
+  previous: 上一个
+  time:
+    formats:
+      date: "%B %-e, %Y"
+      date_time: "%B %-e, %-l:%M %P"
+      full: "%A, %B %-e at %-l:%M %P"
+      long: "%A, %B %-e"
+      time: "%-l:%M %P"
+  weekdays:
+    '0': 周日
+    '1': 周一
+    '2': 周二
+    '3': 周三
+    '4': 周四
+    '5': 周五
+    '6': 周六
